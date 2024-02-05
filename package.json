@@ -1,0 +1,15 @@
+{
+  "name": "deepgram-js-sdk-test",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "@deepgram/sdk": "github:BartoszJarocki/deepgram-js-sdk#feat/add-fetch-override-test",
+    "cross-fetch": "^4.0.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
